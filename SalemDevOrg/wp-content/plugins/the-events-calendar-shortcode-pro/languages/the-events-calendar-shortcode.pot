@@ -1,0 +1,695 @@
+# Copyright (C) 2018 Event Calendar Newsletter
+# This file is distributed under the GPL2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar Shortcode PRO 1.11.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/the-events-calendar-shortcode-pro\n"
+"POT-Creation-Date: 2018-08-17 00:49:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Poedit: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: core/templates/admin-page.php:2 edd/edd.php:47
+msgid "The Events Calendar Shortcode"
+msgstr ""
+
+#: core/templates/admin-page.php:4
+msgid ""
+"The shortcode displays lists of your events. For example the shortcode to "
+"show next 8 events in the category \"%s\" in ASC order with date showing:"
+msgstr ""
+
+#: core/templates/admin-page.php:8
+msgid "Watch a Short Walk Through Video"
+msgstr ""
+
+#: core/templates/admin-page.php:16
+msgid "Basic shortcode"
+msgstr ""
+
+#: core/templates/admin-page.php:19
+msgid "Shortcode Options"
+msgstr ""
+
+#: core/templates/admin-page.php:23
+msgid ""
+"Represents single event category.  Use commas when you want multiple "
+"categories"
+msgstr ""
+
+#: core/templates/admin-page.php:30
+msgid "Total number of events to show. Default is 5."
+msgstr ""
+
+#: core/templates/admin-page.php:33
+msgid ""
+"Order of the events to be shown. Value can be 'ASC' or 'DESC'. Default is "
+"'ASC'. Order is based on event date."
+msgstr ""
+
+#: core/templates/admin-page.php:36
+msgid "To show or hide date. Value can be 'true' or 'false'. Default is true."
+msgstr ""
+
+#: core/templates/admin-page.php:39
+msgid "To show or hide the venue. Value can be 'true' or 'false'. Default is false."
+msgstr ""
+
+#: core/templates/admin-page.php:42
+msgid "To show or hide the excerpt and set excerpt length. Default is false."
+msgstr ""
+
+#: core/templates/admin-page.php:46
+msgid "To show or hide thumbnail/featured image. Default is false."
+msgstr ""
+
+#: core/templates/admin-page.php:48
+msgid "You can use 2 other attributes: %s and %s to customize the thumbnail size"
+msgstr ""
+
+#: core/templates/admin-page.php:50
+msgid "or use %s to specify the pre-set size to use, for example:"
+msgstr ""
+
+#: core/templates/admin-page.php:54
+msgid "Message to show when there are no events. Defaults to '%s'"
+msgstr ""
+
+#: core/templates/admin-page.php:57
+msgid ""
+"Determines whether to show '%s' or not. Values can be 'true' or 'false'. "
+"Default to 'true'"
+msgstr ""
+
+#: core/templates/admin-page.php:57 core/the-events-calendar-shortcode.php:364
+msgid "View All %s"
+msgstr ""
+
+#: core/templates/admin-page.php:61
+msgid "Manage the order of content with commas. Defaults to %s"
+msgstr ""
+
+#: core/templates/admin-page.php:64
+msgid ""
+"Show only specific Month. Type '%s' for displaying current month only or "
+"'%s' for next month, ie:"
+msgstr ""
+
+#: core/templates/admin-page.php:67
+msgid "Show outdated events (ie. events that have already happened)"
+msgstr ""
+
+#: core/templates/admin-page.php:70
+msgid ""
+"Use to hide events when the start date has passed, rather than the end "
+"date.  Will also change the order of events by start date instead of end "
+"date."
+msgstr ""
+
+#: core/templates/admin-page.php:73
+msgid "Used to order by the end date instead of the start date."
+msgstr ""
+
+#: core/templates/admin-page.php:75
+msgid "You can also use this to order by title if you wish:"
+msgstr ""
+
+#: core/templates/admin-page.php:89
+msgid ""
+"By default the plugin does not include styling. Events are listed in ul li "
+"tags with appropriate classes for styling and you can add your own CSS:"
+msgstr ""
+
+#: core/templates/admin-page.php:93
+msgid "(if featured)"
+msgstr ""
+
+#: core/templates/admin-page.php:94
+msgid "event title link is %s"
+msgstr ""
+
+#: core/templates/admin-page.php:95
+msgid "date class is %s"
+msgstr ""
+
+#: core/templates/admin-page.php:96
+msgid "venue class is %s"
+msgstr ""
+
+#: core/templates/admin-page.php:103
+msgid "Want a better looking design without adding any CSS?"
+msgstr ""
+
+#: core/templates/admin-page.php:104
+msgid ""
+"Check out %sThe Events Calendar Shortcode PRO%s. Some examples of the "
+"designs:"
+msgstr ""
+
+#: core/templates/admin-page.php:106
+msgid "Pro version default design example"
+msgstr ""
+
+#: core/templates/admin-page.php:107
+msgid "Pro version compact design example"
+msgstr ""
+
+#: core/templates/admin-page.php:108
+msgid "Pro version calendar design example"
+msgstr ""
+
+#: core/templates/admin-page.php:109
+msgid "Pro version horizontal/columns/photos design example"
+msgstr ""
+
+#: core/templates/admin-page.php:110
+msgid "Pro version grouped design example"
+msgstr ""
+
+#: core/templates/admin-page.php:113
+msgid "In addition to designs, you'll get more options including:"
+msgstr ""
+
+#: core/templates/admin-page.php:114
+msgid "Number of days"
+msgstr ""
+
+#: core/templates/admin-page.php:115
+msgid "Choose how many days to show events from, ie. 1 day or a week"
+msgstr ""
+
+#: core/templates/admin-page.php:116
+msgid "Tag"
+msgstr ""
+
+#: core/templates/admin-page.php:117
+msgid "Filter events listed by one or more tags"
+msgstr ""
+
+#: core/templates/admin-page.php:118
+msgid "Location"
+msgstr ""
+
+#: core/templates/admin-page.php:119
+msgid "Display events by city, state/province, or country"
+msgstr ""
+
+#: core/templates/admin-page.php:120
+msgid "Single Event"
+msgstr ""
+
+#: core/templates/admin-page.php:121
+msgid "List the details of a single event by ID, for example on a blog post"
+msgstr ""
+
+#: core/templates/admin-page.php:122
+msgid "Featured"
+msgstr ""
+
+#: core/templates/admin-page.php:123
+msgid "Show only events marked as \"featured\""
+msgstr ""
+
+#: core/templates/admin-page.php:124
+msgid "Button"
+msgstr ""
+
+#: core/templates/admin-page.php:125
+msgid "Add an easy to see button link to your event, and customize the colors/text"
+msgstr ""
+
+#: core/templates/admin-page.php:126
+msgid "Date"
+msgstr ""
+
+#: core/templates/admin-page.php:127
+msgid "Show only events for a specific day (ie. 2017-04-16), great for conferences"
+msgstr ""
+
+#: core/templates/admin-page.php:128
+msgid "Year"
+msgstr ""
+
+#: core/templates/admin-page.php:129
+msgid "Show only events for a specific year"
+msgstr ""
+
+#: core/templates/admin-page.php:130
+msgid "Offset"
+msgstr ""
+
+#: core/templates/admin-page.php:131
+msgid ""
+"Skip a certain number of events from the beginning, useful for using "
+"multiple shortcodes on the same page or splitting into columns."
+msgstr ""
+
+#: core/templates/admin-page.php:132
+msgid "Full Description"
+msgstr ""
+
+#: core/templates/admin-page.php:133
+msgid ""
+"Use the full description instead of the excerpt (short description) of an "
+"event in the listing"
+msgstr ""
+
+#: core/templates/admin-page.php:134
+msgid "Future Only"
+msgstr ""
+
+#: core/templates/admin-page.php:135
+msgid "Only show events in the future even when using the month or year option."
+msgstr ""
+
+#: core/templates/admin-page.php:136
+#: includes/templates/admin-page-styling.php:84
+msgid "Custom Design"
+msgstr ""
+
+#: core/templates/admin-page.php:137
+msgid ""
+"Use the new default or compact designs, or create your own using one or "
+"more templates in your theme folder"
+msgstr ""
+
+#: core/templates/admin-page.php:138
+msgid "%sGet The Events Calendar Shortcode PRO%s"
+msgstr ""
+
+#: core/templates/admin-page.php:146
+msgid ""
+"This plugin is not developed by or affiliated with The Events Calendar or "
+"%s in any way."
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:81
+msgid "The Events Calendar"
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:82
+msgid ""
+"To begin using %s, please install the latest version of %s%s%s and add an "
+"event."
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:91
+#: core/the-events-calendar-shortcode.php:92
+msgid "Shortcode"
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:122
+#: the-events-calendar-shortcode-pro.php:56
+msgid "Settings"
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:123
+msgid "Upgrade"
+msgstr ""
+
+#: core/the-events-calendar-shortcode.php:341
+msgid "at"
+msgstr ""
+
+#: edd/TECS_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: edd/TECS_SL_Plugin_Updater.php:209
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: edd/TECS_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: edd/TECS_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr ""
+
+#: edd/edd.php:54
+msgid "License Key"
+msgstr ""
+
+#: edd/edd.php:58
+msgid "Enter your license key"
+msgstr ""
+
+#: edd/edd.php:63 edd/edd.php:72
+msgid "Activate License"
+msgstr ""
+
+#: edd/edd.php:67
+msgid "active"
+msgstr ""
+
+#: edd/edd.php:69
+msgid "Deactivate License"
+msgstr ""
+
+#: edd/edd.php:105
+msgid ""
+"The Events Calendar Shortcode PRO license needs to be activated. %sActivate "
+"Now%s or %sGet a License%s"
+msgstr ""
+
+#: edd/edd.php:189 edd/edd.php:236 edd/edd.php:293
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd/edd.php:203
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd/edd.php:210
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd/edd.php:215
+msgid "Invalid license."
+msgstr ""
+
+#: edd/edd.php:221
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd/edd.php:226
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd/edd.php:231
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/designs/default.php:122 templates/default_tpl.php:72
+msgid "Find out more"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:2
+msgid "Fetch a single event using the ID of that event"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:6
+msgid ""
+"Exclude a single event from the listing.  Use \"%s\" when using the "
+"shortcode on an event page to exclude the current event."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:11
+msgid ""
+"Specifies the number of days from today to fetch events.  If specified, "
+"overrides the \"%s\" option"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:12
+msgid "For example to get events for the next week:"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:14
+msgid "Or to get events for the next day:"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:18
+msgid ""
+"Specifies the day of events to fetch.  If specified, overrides the \"%s\" "
+"option"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:21
+msgid "or for the current day but in future only:"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:25
+msgid "Show events for a certain year"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:28
+msgid "or to only show events from a certain year but in the future from today:"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:32
+msgid "Show events between certain dates"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:34
+msgid ""
+"or you can specify either the from or the to date, and optionally add %s to "
+"only show future events"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:38
+msgid "or optionally add %s to only show events that have not finished"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:42
+msgid ""
+"For use with fromdate/todate, days, day and year to also include events "
+"that are \"in progress\" (ie. start before and end after the current day)."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:49
+msgid ""
+"Include events that are not in the specified categories.  Useful for "
+"excluding any community submitted events."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:54
+msgid "Represents single event tag.  Use commas when you want multiple tags."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:59
+msgid "Include events that are not in the specified tags."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:64
+msgid ""
+"Used to require events to have ALL specified categories or tags, instead of "
+"just one of them."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:69
+msgid "Option to only show the first event from a recurring event (%s)."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:73
+msgid ""
+"Uses the raw excerpt rather than stripping any HTML from it or modifying "
+"the result in any way."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:77
+msgid ""
+"Use the full description for the excerpt rather than the WordPress excerpt "
+"or short description. Can also use \"%s\" with it to avoid removing any "
+"formatting and links."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:86
+msgid "Filter events by a location city, state or province, or country"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:90
+msgid "If the location itself has a comma, use -- instead:"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:94
+msgid "Only show events that are marked \"featured\""
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:98
+msgid "Only show events that are not marked \"featured\""
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:102
+msgid "Filter events by one or more venue ids"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:106
+msgid "Filter events by one or more organizer ids"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:110
+msgid ""
+"Number of events to skip.  Useful if you want to split events into columns "
+"without CSS or have the first event be in a different design."
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:113
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:115
+msgid ""
+"When using The Events Calendar PRO \"Additional Fields\", Advanced Custom "
+"Fields, or Toolset Types, you can use that field when filtering. For "
+"example if you have a custom field with slug my_field you can do the "
+"following to filter for all events with a value of \"Test\":"
+msgstr ""
+
+#: includes/templates/admin-page-pro-attributes.php:117
+msgid "More information available %son the blog post%s"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:2
+msgid ""
+"By default the plugin shows a listing of events in a style similar to The "
+"Events Calendar list view."
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:4
+msgid "Default Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:6
+msgid "The default design includes event details, photo, excerpt and more."
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:10
+#: includes/templates/admin-page-styling.php:29
+#: includes/templates/admin-page-styling.php:45
+#: includes/templates/admin-page-styling.php:58
+#: includes/templates/admin-page-styling.php:67
+msgid "View Examples"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:12
+msgid "Standard Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:14
+msgid ""
+"If you would like to use the styling/html from the free version, just add "
+"%s to the shortcode:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:18
+msgid "Compact Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:20
+msgid "If you would like to use a more compact view, just add %s to the shortcode:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:24
+msgid ""
+"You can customize the colors using %s (text color) and %s (background "
+"color), for example:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:31
+msgid "Calendar Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:33
+msgid "Creates a full calendar view:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:41
+msgid "Change the first day of the week, ie. 0=Sunday, 1=Monday etc:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:47
+msgid "Horizontal/Columns/Photo Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:49
+msgid "Creates a listing of your events split into columns:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:54
+msgid ""
+"The design defaults to three columns but you can change that with the %s "
+"property:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:60
+msgid "Grouped Design"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:62
+msgid ""
+"If you would like to group the events by day with just the time under each "
+"date, just add %s to the shortcode:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:69
+msgid "Additional Design Options"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:71
+msgid "You can also customize the output of most of the designs with things like:"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:74
+msgid "to customize the size of the title, ie."
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:75
+msgid "to show the event thumbnail image (if any)"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:76
+msgid "to show the event summary description under the title"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:77
+msgid "to show the venue name under the title"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:78
+msgid "to show the start time without the date"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:79
+msgid ""
+"to show a button with a link to the event (change \"%s\" to whatever you "
+"want)"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:80
+msgid "to use the event website URL for the button"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:81
+msgid "and"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:81
+msgid "to customize button color"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:86
+msgid ""
+"If you'd like to completely customize the output you can create a folder "
+"called <strong>%s</strong> in your theme directory, and in it create a file "
+"called <strong>%s</strong>"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:87
+msgid "Then add your shortcode with \"%s\" as the design name (which matches %s):"
+msgstr ""
+
+#: includes/templates/admin-page-styling.php:89
+msgid ""
+"You can rename %s to another name and even create multiple design templates "
+"to use elsewhere on your site.  Note that you should place this folder "
+"within a child theme so any updates to your main theme do not override your "
+"templates."
+msgstr ""
+
+#: the-events-calendar-shortcode-pro.php:28
+msgid ""
+"You need to deactivate and delete The Events Calendar Shortcode plugin on "
+"the %splugins page%s"
+msgstr ""

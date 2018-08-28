@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="entypo" horiz-adv-x="1000" >
+<font-face font-family="entypo" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="address" unicode="&#xe800;" d="M426 800q20 0 20-20l0-860q0-20-20-20l-46 0q-20 0-20 20l0 440-176 0q-16 0-28 6-12 2-26 12l-120 82q-10 6-10 16t10 16l120 82q14 10 26 12 8 4 28 4l176 0 0 190q0 20 20 20l46 0z m564-208q10-6 10-16t-10-16l-118-82q-22-12-26-12-14-6-28-6l-302 0-40 230 342 0q18 0 28-4t26-12z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Weather Atlas Widget\n"
+"POT-Creation-Date: 2017-09-04 14:26+0200\n"
+"PO-Revision-Date: 2018-07-17 16:45+0200\n"
+"Language-Team: Yu Media Group d.o.o.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: weather-atlas.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-weather-atlas-admin.php:79
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/class-weather-atlas-admin.php:80
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: includes/class-weather-atlas.php:60
+msgid "Display current conditions and weather forecast on your website."
+msgstr ""
+
+#: includes/class-weather-atlas.php:203
+msgid "Location"
+msgstr "Местоположение"
+
+#: includes/class-weather-atlas.php:208
+msgid "City"
+msgstr "Город"
+
+#: includes/class-weather-atlas.php:212 includes/class-weather-atlas.php:833
+msgid "type and select location from drop-down"
+msgstr ""
+
+#: includes/class-weather-atlas.php:221
+msgid "shortcode - all options"
+msgstr ""
+
+#: includes/class-weather-atlas.php:228
+msgid "required"
+msgstr "обязательно"
+
+#: includes/class-weather-atlas.php:233 includes/class-weather-atlas.php:240
+#: includes/class-weather-atlas.php:247 includes/class-weather-atlas.php:254
+#: includes/class-weather-atlas.php:261 includes/class-weather-atlas.php:268
+#: includes/class-weather-atlas.php:275 includes/class-weather-atlas.php:282
+#: includes/class-weather-atlas.php:289 includes/class-weather-atlas.php:296
+#: includes/class-weather-atlas.php:303 includes/class-weather-atlas.php:310
+#: includes/class-weather-atlas.php:317
+msgid "default"
+msgstr "по умолчанию"
+
+#: includes/class-weather-atlas.php:235 includes/class-weather-atlas.php:242
+#: includes/class-weather-atlas.php:249 includes/class-weather-atlas.php:256
+#: includes/class-weather-atlas.php:263 includes/class-weather-atlas.php:270
+#: includes/class-weather-atlas.php:277 includes/class-weather-atlas.php:284
+#: includes/class-weather-atlas.php:291 includes/class-weather-atlas.php:298
+#: includes/class-weather-atlas.php:305 includes/class-weather-atlas.php:312
+#: includes/class-weather-atlas.php:319
+msgid "options"
+msgstr "опции"
+
+#: includes/class-weather-atlas.php:323
+msgid "Example:"
+msgstr "Пример:"
+
+#: includes/class-weather-atlas.php:327
+msgid "(excluded options load default values)"
+msgstr ""
+
+#: includes/class-weather-atlas.php:331
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-weather-atlas.php:336
+msgid "Units"
+msgstr "Единицы"
+
+#: includes/class-weather-atlas.php:346
+msgid "Language"
+msgstr "Язык"
+
+#: includes/class-weather-atlas.php:355
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: includes/class-weather-atlas.php:360
+msgid "Layout"
+msgstr ""
+
+#: includes/class-weather-atlas.php:367
+msgid "vertical layout - recommended for placement in sidebar"
+msgstr ""
+
+#: includes/class-weather-atlas.php:369
+msgid "horizontal layout - recommended for placement in articles"
+msgstr ""
+
+#: includes/class-weather-atlas.php:375
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: includes/class-weather-atlas.php:376 includes/class-weather-atlas.php:389
+#: includes/class-weather-atlas.php:404 includes/class-weather-atlas.php:422
+#: includes/class-weather-atlas.php:433
+msgid "(optional)"
+msgstr "(по выбору)"
+
+#: includes/class-weather-atlas.php:380
+msgid "leave blank - widget's font size adjusts to web site's font size"
+msgstr ""
+
+#: includes/class-weather-atlas.php:382
+#, php-format
+msgid "16px or 12pt or 1.2em or 1rem or 90% etc. - specify widget's font size"
+msgstr ""
+
+#: includes/class-weather-atlas.php:388
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-weather-atlas.php:395
+msgid "leave blank - widget's background adapt to current temperature"
+msgstr ""
+
+#: includes/class-weather-atlas.php:397
+msgid "choose color and transparency - background color is fixed"
+msgstr ""
+
+#: includes/class-weather-atlas.php:403
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-weather-atlas.php:409
+msgid "leave blank - widget's font color adapt to current temperature"
+msgstr ""
+
+#: includes/class-weather-atlas.php:411
+msgid "choose color - font color is fixed"
+msgstr ""
+
+#: includes/class-weather-atlas.php:416
+msgid "Display"
+msgstr ""
+
+#: includes/class-weather-atlas.php:421
+msgid "Heading"
+msgstr ""
+
+#: includes/class-weather-atlas.php:426
+msgid "leave blank - no heading above widget"
+msgstr ""
+
+#: includes/class-weather-atlas.php:432
+msgid "Header"
+msgstr ""
+
+#: includes/class-weather-atlas.php:437
+msgid "leave blank - City name is in widget's header"
+msgstr ""
+
+#: includes/class-weather-atlas.php:442
+msgid "Current conditions"
+msgstr ""
+
+#: includes/class-weather-atlas.php:453
+msgid "Show: sunrise / sunset time"
+msgstr ""
+
+#: includes/class-weather-atlas.php:465
+msgid "Show: feels like / wind / humidity / pressure / uv index"
+msgstr ""
+
+#: includes/class-weather-atlas.php:469
+msgid "(on mobile devices current condition details are hidden)"
+msgstr ""
+
+#: includes/class-weather-atlas.php:474
+msgid "Hourly forecast"
+msgstr ""
+
+#: includes/class-weather-atlas.php:482
+msgid "hide hourly forecast"
+msgstr ""
+
+#: includes/class-weather-atlas.php:483
+msgid "hour"
+msgstr ""
+
+#: includes/class-weather-atlas.php:484 includes/class-weather-atlas.php:485
+#: includes/class-weather-atlas.php:486 includes/class-weather-atlas.php:487
+msgid "hours"
+msgstr ""
+
+#: includes/class-weather-atlas.php:491 includes/class-weather-atlas.php:518
+msgid "vertical layout recommended"
+msgstr ""
+
+#: includes/class-weather-atlas.php:494 includes/class-weather-atlas.php:521
+msgid "horizontal layout recommended"
+msgstr ""
+
+#: includes/class-weather-atlas.php:496
+msgid "(on mobile devices more then 3 hours are hidden)"
+msgstr ""
+
+#: includes/class-weather-atlas.php:501
+msgid "Daily forecast"
+msgstr ""
+
+#: includes/class-weather-atlas.php:509
+msgid "hide daily forecast"
+msgstr ""
+
+#: includes/class-weather-atlas.php:510
+msgid "day"
+msgstr ""
+
+#: includes/class-weather-atlas.php:511 includes/class-weather-atlas.php:512
+#: includes/class-weather-atlas.php:513 includes/class-weather-atlas.php:514
+msgid "days"
+msgstr ""
+
+#: includes/class-weather-atlas.php:523
+msgid "(on mobile devices more then 3 days are hidden)"
+msgstr ""
+
+#: includes/class-weather-atlas.php:528 includes/class-weather-atlas.php:539
+msgid "Detailed forecast"
+msgstr ""
+
+#: includes/class-weather-atlas.php:543
+msgid "checked"
+msgstr ""
+
+#: includes/class-weather-atlas.php:545
+msgid "recommended"
+msgstr ""
+
+#: includes/class-weather-atlas.php:547
+msgid ""
+"removes \"<i>Weather from Weather Atlas</i>\" & places link \"<i>Detailed "
+"forecast</i>\" for choosen location"
+msgstr ""
+
+#: includes/class-weather-atlas.php:549
+msgid "unchecked"
+msgstr ""
+
+#: includes/class-weather-atlas.php:551
+msgid "shows \"<i>Weather from Weather Atlas</i>\" at the bottom of the widget"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Weather Atlas Widget"
+msgstr "Weather Atlas Widget"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/weather-atlas/"
+msgstr "https://wordpress.org/plugins/weather-atlas/"
+
+#. Description of the plugin/theme
+msgid ""
+"Highly customizable, simple & beautiful Weather Widget / Responsive web "
+"design / Detailed current conditions, hourly & long-term weather forecast"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Yu Media Group d.o.o."
+msgstr "Yu Media Group d.o.o."
+
+#. Author URI of the plugin/theme
+msgid "https://www.weather-atlas.com"
+msgstr "https://www.weather-atlas.com"

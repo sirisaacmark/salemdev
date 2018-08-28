@@ -1,0 +1,470 @@
+0000.001 (0) Opened log file at time: Tue, 28 Aug 2018 13:54:00 +0000 on http://www.salem.org
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.13.1 WP: 4.9.8 PHP: 7.2.7-1+0~20180622080852.23+jessie~1.gbpfd8e2e (apache2handler, Linux php-v198.wc1.lan3.stabletransit.com 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1+deb8u1 (2018-05-08) x86_64) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.8M | 18M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 611119.3 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: every8hours) Backup DB:  (schedule: every8hours)
+0000.015 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.020 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1535435641, seconds_ago=28799)
+0000.027 (0) Set semaphore last lock (fd) time to 2018-08-28 13:54:00
+0000.028 (0) Semaphore lock (fd) complete
+0000.037 (0) Backup run: resumption=0, nonce=9cc0e5ce9808, begun at=1535464440 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1535464740) in case this run gets aborted
+0000.052 (0) Checking if we have a zip executable available
+0000.054 (0) Testing: /usr/bin/zip
+0000.074 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.081 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.082 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.083 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.084 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.105 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.109 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.130 (0) Working binary zip found: /usr/bin/zip
+0000.133 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.134 (0) Creation of backups of directories: beginning
+0000.147 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.312 (0) Total entities for the zip file: 961 directories, 5786 files (0 skipped as non-modified), 111.5 MB
+0007.318 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.401 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 0.20 MB
+0007.560 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 100 files added (on-disk size: 221.2 KB)
+0007.699 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 200 files added (on-disk size: 221.2 KB)
+0007.809 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 300 files added (on-disk size: 221.2 KB)
+0007.941 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 400 files added (on-disk size: 221.2 KB)
+0008.073 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 500 files added (on-disk size: 221.2 KB)
+0008.077 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 5786 files batched, 501 (502) added so far); re-opening (prior size: 221.2 KB)
+0009.994 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 2.40 MB
+0010.131 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 600 files added (on-disk size: 2446.2 KB)
+0010.254 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 700 files added (on-disk size: 2446.2 KB)
+0010.379 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 800 files added (on-disk size: 2446.2 KB)
+0010.506 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 900 files added (on-disk size: 2446.2 KB)
+0010.619 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1000 files added (on-disk size: 2446.2 KB)
+0010.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 5786 files batched, 501 (1003) added so far); re-opening (prior size: 2446.2 KB)
+0011.859 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 3.80 MB
+0012.025 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1100 files added (on-disk size: 3891.2 KB)
+0012.164 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1200 files added (on-disk size: 3891.2 KB)
+0012.274 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1300 files added (on-disk size: 3891.2 KB)
+0012.378 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1400 files added (on-disk size: 3891.2 KB)
+0012.478 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1500 files added (on-disk size: 3891.2 KB)
+0012.483 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 5786 files batched, 501 (1504) added so far); re-opening (prior size: 3891.2 KB)
+0013.515 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 4.80 MB
+0013.609 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1600 files added (on-disk size: 4887.5 KB)
+0013.706 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1700 files added (on-disk size: 4887.5 KB)
+0013.797 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1800 files added (on-disk size: 4887.5 KB)
+0013.885 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 1900 files added (on-disk size: 4887.5 KB)
+0013.962 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2000 files added (on-disk size: 4887.5 KB)
+0013.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 5786 files batched, 501 (2005) added so far); re-opening (prior size: 4887.5 KB)
+0015.118 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 6.60 MB
+0015.189 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2100 files added (on-disk size: 6780.2 KB)
+0015.275 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2200 files added (on-disk size: 6780.2 KB)
+0015.357 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2300 files added (on-disk size: 6780.2 KB)
+0015.428 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2400 files added (on-disk size: 6780.2 KB)
+0015.504 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2500 files added (on-disk size: 6780.2 KB)
+0015.511 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 5786 files batched, 501 (2506) added so far); re-opening (prior size: 6780.2 KB)
+0016.597 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 8.70 MB
+0016.674 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2600 files added (on-disk size: 8890.1 KB)
+0016.764 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2700 files added (on-disk size: 8890.1 KB)
+0016.843 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2800 files added (on-disk size: 8890.1 KB)
+0016.904 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 2900 files added (on-disk size: 8890.1 KB)
+0016.995 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3000 files added (on-disk size: 8890.1 KB)
+0017.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.2 MB, 5786 files batched, 501 (3007) added so far); re-opening (prior size: 8890.1 KB)
+0019.117 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 13.60 MB
+0019.192 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3100 files added (on-disk size: 13927.4 KB)
+0019.290 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3200 files added (on-disk size: 13927.4 KB)
+0019.388 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3300 files added (on-disk size: 13927.4 KB)
+0019.470 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3400 files added (on-disk size: 13927.4 KB)
+0019.569 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3500 files added (on-disk size: 13927.4 KB)
+0019.581 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 5786 files batched, 501 (3508) added so far); re-opening (prior size: 13927.4 KB)
+0021.191 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3600 files added (on-disk size: 16485.1 KB)
+0021.340 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3700 files added (on-disk size: 16485.1 KB)
+0021.491 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3800 files added (on-disk size: 16485.1 KB)
+0021.647 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 3900 files added (on-disk size: 16485.1 KB)
+0021.723 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4000 files added (on-disk size: 16485.1 KB)
+0021.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 5786 files batched, 501 (4009) added so far); re-opening (prior size: 16485.1 KB)
+0024.459 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4100 files added (on-disk size: 19072.2 KB)
+0024.722 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4200 files added (on-disk size: 19072.2 KB)
+0024.974 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4300 files added (on-disk size: 19072.2 KB)
+0025.140 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4400 files added (on-disk size: 19072.2 KB)
+0025.227 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4500 files added (on-disk size: 19072.2 KB)
+0025.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 5786 files batched, 501 (4510) added so far); re-opening (prior size: 19072.2 KB)
+0026.943 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4600 files added (on-disk size: 22369.8 KB)
+0027.046 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4700 files added (on-disk size: 22369.8 KB)
+0027.163 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4800 files added (on-disk size: 22369.8 KB)
+0027.316 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 4900 files added (on-disk size: 22369.8 KB)
+0027.489 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5000 files added (on-disk size: 22369.8 KB)
+0027.508 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 5786 files batched, 501 (5011) added so far); re-opening (prior size: 22369.8 KB)
+0029.297 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5100 files added (on-disk size: 23741.6 KB)
+0029.409 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5200 files added (on-disk size: 23741.6 KB)
+0029.509 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5300 files added (on-disk size: 23741.6 KB)
+0029.611 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5400 files added (on-disk size: 23741.6 KB)
+0029.702 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5500 files added (on-disk size: 23741.6 KB)
+0029.714 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 5786 files batched, 501 (5512) added so far); re-opening (prior size: 23741.6 KB)
+0031.428 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5600 files added (on-disk size: 26984.6 KB)
+0031.519 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: 5700 files added (on-disk size: 26984.6 KB)
+0032.834 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip.tmp: size is now: 46.00 MB
+0033.614 (0) Created plugins zip (0) - 47078.8 KB in 33.5 s (1407.1 KB/s) (sha1: c302118994a6890737b509aa5e75021d8af5a318, sha256: 1398229cc2ac351bc8a572db8fe481119c155e29a11e059ad7cc298cc43f3bef)
+0033.625 (0) Beginning creation of dump of themes (split every: 400 MB)
+0034.881 (0) Total entities for the zip file: 226 directories, 1311 files (0 skipped as non-modified), 20.7 MB
+0034.968 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.044 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.114 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.193 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.265 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.267 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 1311 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0036.791 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: size is now: 3.30 MB
+0036.877 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 600 files added (on-disk size: 3334.7 KB)
+0036.956 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 700 files added (on-disk size: 3334.7 KB)
+0037.043 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 800 files added (on-disk size: 3334.7 KB)
+0037.114 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 900 files added (on-disk size: 3334.7 KB)
+0037.195 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 1000 files added (on-disk size: 3334.7 KB)
+0037.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 1311 files batched, 501 (1002) added so far); re-opening (prior size: 3334.7 KB)
+0038.451 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: size is now: 5.60 MB
+0038.552 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 1100 files added (on-disk size: 5719.1 KB)
+0038.662 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 1200 files added (on-disk size: 5719.1 KB)
+0038.774 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: 1300 files added (on-disk size: 5719.1 KB)
+0039.671 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip.tmp: size is now: 8.30 MB
+0039.829 (0) Created themes zip (0) - 8486.2 KB in 6.2 s (1369.7 KB/s) (sha1: 91b721cb0e558de1ebd427f3027aeda5d0f96f99, sha256: ef54d341ac0b2180534b7431f9be332ec8e809d6c3bd163a727dab60f62c59b6)
+0039.839 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0039.840 (0) Looking for candidates to backup in: /mnt/target04/854926/2011279/www.salem.org/web/content/wp-content/uploads
+0039.842 (0) finding files: 2018: adding to list (1)
+0039.844 (0) finding files: useanyfont: adding to list (2)
+0039.844 (0) finding files: wpallexport: adding to list (3)
+0039.845 (0) finding files: formidable: adding to list (4)
+0039.846 (0) finding files: 2016: adding to list (5)
+0039.847 (0) finding files: 2017: adding to list (6)
+0039.848 (0) finding files: alm_templates: adding to list (7)
+0039.849 (0) finding files: media-from-ftp-tmp: adding to list (8)
+0039.850 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0048.135 (0) Total entities for the zip file: 39 directories, 10571 files (0 skipped as non-modified), 694.2 MB
+0048.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0048.172 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 0.00 MB
+0048.282 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 100 files added (on-disk size: 25 KB)
+0048.396 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 200 files added (on-disk size: 25 KB)
+0048.523 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 300 files added (on-disk size: 25 KB)
+0048.533 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (32 MB, 10571 files batched, 307 (308) added so far); re-opening (prior size: 25 KB)
+0050.964 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 31.00 MB
+0050.968 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.2 s, rate: 11413.1 KB/s)
+0050.970 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8701329231262, normalised_time=2.2430397740993, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=70121984)
+0051.073 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 400 files added (on-disk size: 31725.2 KB)
+0051.171 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 500 files added (on-disk size: 31725.2 KB)
+0051.285 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 600 files added (on-disk size: 31725.2 KB)
+0051.426 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 700 files added (on-disk size: 31725.2 KB)
+0051.565 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 800 files added (on-disk size: 31725.2 KB)
+0051.577 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (25.7 MB, 10571 files batched, 501 (809) added so far); re-opening (prior size: 31725.2 KB)
+0054.564 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 56.50 MB
+0054.655 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 900 files added (on-disk size: 57846.7 KB)
+0054.770 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1000 files added (on-disk size: 57846.7 KB)
+0054.882 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1100 files added (on-disk size: 57846.7 KB)
+0054.991 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1200 files added (on-disk size: 57846.7 KB)
+0055.085 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1300 files added (on-disk size: 57846.7 KB)
+0055.096 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (26.8 MB, 10571 files batched, 501 (1310) added so far); re-opening (prior size: 57846.7 KB)
+0059.576 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 72.40 MB
+0059.705 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1400 files added (on-disk size: 74158.8 KB)
+0059.816 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1500 files added (on-disk size: 74158.8 KB)
+0059.914 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1600 files added (on-disk size: 74158.8 KB)
+0060.018 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1700 files added (on-disk size: 74158.8 KB)
+0060.154 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1800 files added (on-disk size: 74158.8 KB)
+0060.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 10571 files batched, 501 (1811) added so far); re-opening (prior size: 74158.8 KB)
+0064.023 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 1900 files added (on-disk size: 87758 KB)
+0064.132 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2000 files added (on-disk size: 87758 KB)
+0064.279 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2100 files added (on-disk size: 87758 KB)
+0064.482 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2200 files added (on-disk size: 87758 KB)
+0064.716 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2300 files added (on-disk size: 87758 KB)
+0064.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (54.5 MB, 10571 files batched, 501 (2312) added so far); re-opening (prior size: 87758 KB)
+0070.055 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 139.80 MB
+0070.178 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2400 files added (on-disk size: 143126.2 KB)
+0070.394 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2500 files added (on-disk size: 143126.2 KB)
+0070.520 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2600 files added (on-disk size: 143126.2 KB)
+0070.649 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2700 files added (on-disk size: 143126.2 KB)
+0070.770 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2800 files added (on-disk size: 143126.2 KB)
+0070.786 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (28.7 MB, 10571 files batched, 501 (2813) added so far); re-opening (prior size: 143126.2 KB)
+0074.232 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 168.60 MB
+0074.538 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 2900 files added (on-disk size: 172599.3 KB)
+0074.732 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3000 files added (on-disk size: 172599.3 KB)
+0074.955 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3100 files added (on-disk size: 172599.3 KB)
+0075.088 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3200 files added (on-disk size: 172599.3 KB)
+0075.273 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3300 files added (on-disk size: 172599.3 KB)
+0075.288 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (37.3 MB, 10571 files batched, 501 (3314) added so far); re-opening (prior size: 172599.3 KB)
+0078.541 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 205.90 MB
+0078.770 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3400 files added (on-disk size: 210846 KB)
+0078.967 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3500 files added (on-disk size: 210846 KB)
+0079.133 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3600 files added (on-disk size: 210846 KB)
+0079.284 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3700 files added (on-disk size: 210846 KB)
+0079.416 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3800 files added (on-disk size: 210846 KB)
+0079.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (51.7 MB, 10571 files batched, 501 (3815) added so far); re-opening (prior size: 210846 KB)
+0084.707 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 257.10 MB
+0085.142 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 3900 files added (on-disk size: 263264 KB)
+0085.423 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 4000 files added (on-disk size: 263264 KB)
+0085.682 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 4100 files added (on-disk size: 263264 KB)
+0085.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 66.9 MB added on this batch (66.9 MB, 10571 files batched, 363 (4178) added so far); re-opening (prior size: 263264 KB)
+0091.699 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 322.80 MB
+0091.702 (0) A useful amount of data was added after this amount of zip processing: 7.6 s (normalised: 7.6 s, rate: 9008.2 KB/s)
+0091.807 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 4200 files added (on-disk size: 330534.8 KB)
+0092.284 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 4300 files added (on-disk size: 330534.8 KB)
+0092.380 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: 4400 files added (on-disk size: 330534.8 KB)
+0092.402 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 66.9 MB added on this batch (82.5 MB, 10571 files batched, 244 (4422) added so far); re-opening (prior size: 330534.8 KB)
+0097.661 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip.tmp: size is now: 405.10 MB
+0097.665 (0) A useful amount of data was added after this amount of zip processing: 6.6 s (normalised: 5.3 s, rate: 12861.8 KB/s)
+0097.666 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.5666038990021, normalised_time=5.3241578952237, max_time=-1, data points known=0, old_max_bytes=70121984, new_max_bytes=79023183)
+0097.668 (0) Zip size is at/near split limit (405.1 MB / 400 MB) - bumping index (from: 0)
+0103.057 (0) Created uploads zip (0) - 414834.1 KB in 57.8 s (7175.5 KB/s) (checksums: sha1: e4126920f2762618fbf57f14a8523b15fe6c993e, sha256: 8e227d13071d676ed8c6bac099a7edb8ace6a73eeb4a7b4c10c2b6d15b303eed)
+0103.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (4423) files added so far); re-opening (prior size: 0 KB)
+0103.087 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: size is now: 0.10 MB
+0103.169 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 4500 files added (on-disk size: 99.5 KB)
+0103.261 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 4600 files added (on-disk size: 99.5 KB)
+0103.369 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 4700 files added (on-disk size: 99.5 KB)
+0103.460 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 4800 files added (on-disk size: 99.5 KB)
+0103.541 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 4900 files added (on-disk size: 99.5 KB)
+0103.570 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (40.8 MB, 10571 files batched, 501 (4924) added so far); re-opening (prior size: 99.5 KB)
+0108.852 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: size is now: 40.70 MB
+0108.986 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5000 files added (on-disk size: 41645.6 KB)
+0109.176 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5100 files added (on-disk size: 41645.6 KB)
+0109.434 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5200 files added (on-disk size: 41645.6 KB)
+0109.740 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5300 files added (on-disk size: 41645.6 KB)
+0110.098 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5400 files added (on-disk size: 41645.6 KB)
+0110.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (40.2 MB, 10571 files batched, 501 (5425) added so far); re-opening (prior size: 41645.6 KB)
+0113.312 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: size is now: 80.60 MB
+0113.461 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5500 files added (on-disk size: 82581.4 KB)
+0113.604 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5600 files added (on-disk size: 82581.4 KB)
+0113.743 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5700 files added (on-disk size: 82581.4 KB)
+0113.873 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5800 files added (on-disk size: 82581.4 KB)
+0114.013 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 5900 files added (on-disk size: 82581.4 KB)
+0114.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.5 MB, 10571 files batched, 501 (5926) added so far); re-opening (prior size: 82581.4 KB)
+0116.406 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: size is now: 97.20 MB
+0116.584 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6000 files added (on-disk size: 99492.2 KB)
+0116.796 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6100 files added (on-disk size: 99492.2 KB)
+0116.982 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6200 files added (on-disk size: 99492.2 KB)
+0117.187 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6300 files added (on-disk size: 99492.2 KB)
+0117.358 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6400 files added (on-disk size: 99492.2 KB)
+0117.396 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.7 MB, 10571 files batched, 501 (6427) added so far); re-opening (prior size: 99492.2 KB)
+0120.282 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6500 files added (on-disk size: 112615.2 KB)
+0120.430 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6600 files added (on-disk size: 112615.2 KB)
+0120.657 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6700 files added (on-disk size: 112615.2 KB)
+0120.923 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6800 files added (on-disk size: 112615.2 KB)
+0121.175 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 6900 files added (on-disk size: 112615.2 KB)
+0121.249 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.8 MB, 10571 files batched, 501 (6928) added so far); re-opening (prior size: 112615.2 KB)
+0123.859 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7000 files added (on-disk size: 128830.8 KB)
+0123.949 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7100 files added (on-disk size: 128830.8 KB)
+0124.037 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7200 files added (on-disk size: 128830.8 KB)
+0124.130 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7300 files added (on-disk size: 128830.8 KB)
+0124.220 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7400 files added (on-disk size: 128830.8 KB)
+0124.245 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.8 MB, 10571 files batched, 501 (7429) added so far); re-opening (prior size: 128830.8 KB)
+0127.037 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7500 files added (on-disk size: 151922 KB)
+0127.148 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7600 files added (on-disk size: 151922 KB)
+0127.253 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7700 files added (on-disk size: 151922 KB)
+0127.371 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7800 files added (on-disk size: 151922 KB)
+0127.562 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 7900 files added (on-disk size: 151922 KB)
+0127.638 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (36.5 MB, 10571 files batched, 501 (7930) added so far); re-opening (prior size: 151922 KB)
+0130.250 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: size is now: 185.00 MB
+0130.439 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8000 files added (on-disk size: 189456.7 KB)
+0130.628 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8100 files added (on-disk size: 189456.7 KB)
+0130.909 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8200 files added (on-disk size: 189456.7 KB)
+0131.384 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8300 files added (on-disk size: 189456.7 KB)
+0131.524 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8400 files added (on-disk size: 189456.7 KB)
+0131.565 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (36.5 MB, 10571 files batched, 501 (8431) added so far); re-opening (prior size: 189456.7 KB)
+0135.474 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8500 files added (on-disk size: 226951.6 KB)
+0135.698 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8600 files added (on-disk size: 226951.6 KB)
+0135.988 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8700 files added (on-disk size: 226951.6 KB)
+0136.229 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8800 files added (on-disk size: 226951.6 KB)
+0136.451 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 8900 files added (on-disk size: 226951.6 KB)
+0136.494 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 10571 files batched, 501 (8932) added so far); re-opening (prior size: 226951.6 KB)
+0140.091 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9000 files added (on-disk size: 240575.6 KB)
+0140.250 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9100 files added (on-disk size: 240575.6 KB)
+0140.486 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9200 files added (on-disk size: 240575.6 KB)
+0140.751 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9300 files added (on-disk size: 240575.6 KB)
+0140.985 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9400 files added (on-disk size: 240575.6 KB)
+0141.085 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.6 MB, 10571 files batched, 501 (9433) added so far); re-opening (prior size: 240575.6 KB)
+0144.299 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9500 files added (on-disk size: 256709.5 KB)
+0144.525 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9600 files added (on-disk size: 256709.5 KB)
+0144.711 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9700 files added (on-disk size: 256709.5 KB)
+0144.880 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9800 files added (on-disk size: 256709.5 KB)
+0145.098 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 9900 files added (on-disk size: 256709.5 KB)
+0145.200 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.1 MB, 10571 files batched, 501 (9934) added so far); re-opening (prior size: 256709.5 KB)
+0148.142 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10000 files added (on-disk size: 271262.3 KB)
+0148.254 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10100 files added (on-disk size: 271262.3 KB)
+0148.355 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10200 files added (on-disk size: 271262.3 KB)
+0148.534 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10300 files added (on-disk size: 271262.3 KB)
+0148.759 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10400 files added (on-disk size: 271262.3 KB)
+0148.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 10571 files batched, 501 (10435) added so far); re-opening (prior size: 271262.3 KB)
+0151.882 (0) Zip: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip.tmp: 10500 files added (on-disk size: 280352.1 KB)
+0157.382 (0) Created uploads zip (1) - 281765.4 KB in 54.3 s (5186.9 KB/s) (sha1: 0ed3b47ed7f672949ca1b5d54939a03361ceebcb, sha256: b481bda93708e7cda8426e81da16d795d1d474f18148534f3d3dfdadb2b62484)
+0157.391 (0) Beginning backup of other directories found in the content directory (index: 0)
+0157.393 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0157.393 (0) Looking for candidates to backup in: /mnt/target04/854926/2011279/www.salem.org/web/content/wp-content
+0157.396 (0) finding files: themes: skipping: this is the themes directory
+0157.397 (0) finding files: plugins: skipping: this is the plugins directory
+0157.398 (0) finding files: index.php: adding to list (1)
+0157.399 (0) finding files: uploads: skipping: this is the uploads directory
+0157.399 (0) finding files: upgrade: skipping: excluded by options
+0157.400 (0) finding files: debug.log: skipping: excluded by options
+0157.401 (0) finding files: updraft: skipping: this is the updraft directory
+0157.402 (0) finding files: map: adding to list (2)
+0157.423 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 1.2 MB
+0157.500 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-others.zip.tmp: size is now: 1.10 MB
+0157.543 (0) Created others zip (0) - 1172.4 KB in 0.1 s (8761.7 KB/s) (sha1: b3e3983ae8c5d560414fc128fa0ea6f0aadb6275, sha256: 5eb6e583cb8329aaa8cb80b924d76478f326dad50e9c1c7479a24258fabc1d96)
+0157.561 (0) Saving backup status to database (elements: 9)
+0157.565 (0) Beginning creation of database dump (WordPress DB)
+0157.572 (0) Testing: /usr/bin/mysqldump
+0157.589 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1191 bytes total)
+0157.593 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0157.605 (0) Table wp_options: Total expected rows (approximate): 20970
+0157.677 (0) Binary mysqldump: error (code: 3)
+0162.402 (0) Table wp_options: Total rows added: 29459 in 4.72 seconds
+0162.442 (0) Table wp_options: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_options.table.gz - 8891.4 KB)
+0162.454 (0) Table wp_users: Total expected rows (approximate): 4
+0162.457 (0) Table wp_users: Total rows added: 7 in 0.00 seconds
+0162.460 (0) Table wp_users: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_users.table.gz - 1 KB)
+0162.470 (0) Table wp_usermeta: Total expected rows (approximate): 226
+0162.476 (0) Table wp_usermeta: Total rows added: 235 in 0.00 seconds
+0162.478 (0) Table wp_usermeta: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_usermeta.table.gz - 5.1 KB)
+0162.486 (0) Table wp_commentmeta: Total expected rows (approximate): 1
+0162.489 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0162.492 (0) Table wp_commentmeta: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0162.502 (0) Table wp_comments: Total expected rows (approximate): 1
+0162.506 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0162.508 (0) Table wp_comments: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_comments.table.gz - 0.5 KB)
+0162.518 (0) Table wp_links: Total expected rows (approximate): 0
+0162.522 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0162.525 (0) Table wp_links: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_links.table.gz - 0.4 KB)
+0162.534 (0) Table wp_postmeta: Total expected rows (approximate): 118051
+0163.734 (0) Table wp_postmeta: binary mysqldump finished (writes: 74) in 1.20 seconds
+0163.738 (0) Table wp_postmeta: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_postmeta.table.gz - 2479.7 KB)
+0163.747 (0) Table wp_posts: Total expected rows (approximate): 5830
+0164.150 (0) Table wp_posts: Total rows added: 6863 in 0.40 seconds
+0164.159 (0) Table wp_posts: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_posts.table.gz - 965.1 KB)
+0164.167 (0) Table wp_term_relationships: Total expected rows (approximate): 17549
+0164.212 (0) Table wp_term_relationships: binary mysqldump finished (writes: 30) in 0.04 seconds
+0164.216 (0) Table wp_term_relationships: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_term_relationships.table.gz - 48.1 KB)
+0164.223 (0) Table wp_term_taxonomy: Total expected rows (approximate): 304
+0164.227 (0) Table wp_term_taxonomy: Total rows added: 302 in 0.00 seconds
+0164.230 (0) Table wp_term_taxonomy: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_term_taxonomy.table.gz - 2.5 KB)
+0164.239 (0) Table wp_termmeta: Total expected rows (approximate): 263
+0164.243 (0) Table wp_termmeta: Total rows added: 263 in 0.00 seconds
+0164.246 (0) Table wp_termmeta: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_termmeta.table.gz - 2.8 KB)
+0164.265 (0) Table wp_terms: Total expected rows (approximate): 325
+0164.270 (0) Table wp_terms: Total rows added: 302 in 0.00 seconds
+0164.272 (0) Table wp_terms: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_terms.table.gz - 4.3 KB)
+0164.279 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 1471
+0164.292 (0) Table wp_yoast_seo_links: Total rows added: 1471 in 0.01 seconds
+0164.295 (0) Table wp_yoast_seo_links: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_yoast_seo_links.table.gz - 19.8 KB)
+0164.301 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 750
+0164.309 (0) Table wp_yoast_seo_meta: Total rows added: 750 in 0.01 seconds
+0164.312 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_yoast_seo_meta.table.gz - 2.5 KB)
+0164.324 (0) Table wp_alm: Total expected rows (approximate): 0
+0164.327 (0) Table wp_alm: Total rows added: 1 in 0.00 seconds
+0164.330 (0) Table wp_alm: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_alm.table.gz - 0.5 KB)
+0164.337 (0) Table wp_frm_fields: Total expected rows (approximate): 84
+0164.343 (0) Table wp_frm_fields: Total rows added: 84 in 0.01 seconds
+0164.346 (0) Table wp_frm_fields: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_fields.table.gz - 8.3 KB)
+0164.356 (0) Table wp_frm_forms: Total expected rows (approximate): 9
+0164.360 (0) Table wp_frm_forms: Total rows added: 8 in 0.00 seconds
+0164.363 (0) Table wp_frm_forms: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_forms.table.gz - 2.1 KB)
+0164.371 (0) Table wp_frm_item_metas: Total expected rows (approximate): 8096
+0164.513 (0) Table wp_frm_item_metas: binary mysqldump finished (writes: 36) in 0.14 seconds
+0164.517 (0) Table wp_frm_item_metas: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_item_metas.table.gz - 330.1 KB)
+0164.527 (0) Table wp_frm_items: Total expected rows (approximate): 1940
+0164.570 (0) Table wp_frm_items: Total rows added: 1980 in 0.04 seconds
+0164.574 (0) Table wp_frm_items: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_items.table.gz - 79.5 KB)
+0164.586 (0) Table wp_mec_events: Total expected rows (approximate): 14
+0164.591 (0) Table wp_mec_events: Total rows added: 14 in 0.00 seconds
+0164.593 (0) Table wp_mec_events: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_mec_events.table.gz - 0.7 KB)
+0164.602 (0) Table wp_mediafromftp_log: Total expected rows (approximate): 0
+0164.607 (0) Table wp_mediafromftp_log: Total rows added: 0 in 0.00 seconds
+0164.610 (0) Table wp_mediafromftp_log: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_mediafromftp_log.table.gz - 0.4 KB)
+0164.622 (0) Table wp_pmxe_exports: Total expected rows (approximate): 0
+0164.625 (0) Table wp_pmxe_exports: Total rows added: 0 in 0.00 seconds
+0164.627 (0) Table wp_pmxe_exports: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_exports.table.gz - 0.5 KB)
+0164.634 (0) Table wp_pmxe_google_cats: Total expected rows (approximate): 5512
+0164.689 (0) Table wp_pmxe_google_cats: Total rows added: 5371 in 0.05 seconds
+0164.692 (0) Table wp_pmxe_google_cats: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_google_cats.table.gz - 75.3 KB)
+0164.699 (0) Table wp_pmxe_posts: Total expected rows (approximate): 0
+0164.702 (0) Table wp_pmxe_posts: Total rows added: 0 in 0.00 seconds
+0164.703 (0) Table wp_pmxe_posts: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_posts.table.gz - 0.3 KB)
+0164.713 (0) Table wp_pmxe_templates: Total expected rows (approximate): 0
+0164.717 (0) Table wp_pmxe_templates: Total rows added: 0 in 0.00 seconds
+0164.719 (0) Table wp_pmxe_templates: finishing file (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_templates.table.gz - 0.3 KB)
+0164.730 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_options.table.gz (1/25): adding to final database dump
+0167.720 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_users.table.gz (2/25): adding to final database dump
+0167.730 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_usermeta.table.gz (3/25): adding to final database dump
+0167.739 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_commentmeta.table.gz (4/25): adding to final database dump
+0167.742 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_comments.table.gz (5/25): adding to final database dump
+0167.748 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_links.table.gz (6/25): adding to final database dump
+0167.753 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_postmeta.table.gz (7/25): adding to final database dump
+0168.662 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_posts.table.gz (8/25): adding to final database dump
+0168.907 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_term_relationships.table.gz (9/25): adding to final database dump
+0168.926 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_term_taxonomy.table.gz (10/25): adding to final database dump
+0168.931 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_termmeta.table.gz (11/25): adding to final database dump
+0168.935 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_terms.table.gz (12/25): adding to final database dump
+0168.938 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_yoast_seo_links.table.gz (13/25): adding to final database dump
+0168.946 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_yoast_seo_meta.table.gz (14/25): adding to final database dump
+0168.950 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_alm.table.gz (15/25): adding to final database dump
+0168.952 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_fields.table.gz (16/25): adding to final database dump
+0168.957 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_forms.table.gz (17/25): adding to final database dump
+0168.960 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_item_metas.table.gz (18/25): adding to final database dump
+0169.048 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_frm_items.table.gz (19/25): adding to final database dump
+0169.071 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_mec_events.table.gz (20/25): adding to final database dump
+0169.075 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_mediafromftp_log.table.gz (21/25): adding to final database dump
+0169.078 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_exports.table.gz (22/25): adding to final database dump
+0169.081 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_google_cats.table.gz (23/25): adding to final database dump
+0169.104 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_posts.table.gz (24/25): adding to final database dump
+0169.107 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db-table-wp_pmxe_templates.table.gz (25/25): adding to final database dump
+0169.131 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db.gz: finished writing out complete database file (12904 KB)
+0169.353 (0) Total database tables backed up: 25 (backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db.gz, size: 13228267, sha256)
+0169.362 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0169.363 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0169.364 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0169.366 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0169.367 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-others.zip: others: This file has not yet been successfully uploaded: will queue
+0169.368 (0) backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db.gz: db: This file has not yet been successfully uploaded: will queue
+0169.369 (0) Saving backup history. Total backup size: 748.3 MB
+0169.373 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0169.376 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0169.377 (0) No remote despatch: user chose no remote backup service
+0169.378 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-plugins.zip
+0169.380 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-themes.zip
+0169.383 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads.zip
+0169.385 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-uploads2.zip
+0169.387 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-others.zip
+0169.389 (0) Recording as successfully uploaded: backup_2018-08-28-0954_Destination_Salem_9cc0e5ce9808-db.gz
+0169.393 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0169.394 (0) Number of backup sets in history: 3; groups (db): 1
+0169.394 (0) Examining (for databases) backup set with group_id=0, nonce=9cc0e5ce9808, datestamp=1535464440 (Aug 28 2018 13:54:00)
+0169.395 (0) This backup set is the backup set just made, so will not be deleted.
+0169.395 (0) Examining (for databases) backup set with group_id=0, nonce=314fcb043b66, datestamp=1535435640 (Aug 28 2018 05:54:00)
+0169.395 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0169.396 (0) Examining (for databases) backup set with group_id=0, nonce=28a6e574f390, datestamp=1535406839 (Aug 27 2018 21:53:59)
+0169.396 (0) 1535406839: db: this set includes a database (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-db.gz); db count is now 2
+0169.396 (0) 1535406839: db: over retain limit (2); will delete this database
+0169.396 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-db.gz, service=none
+0169.397 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-db.gz)
+0169.399 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0169.400 (0) Number of backup sets in history: 3; groups (files): 1
+0169.401 (0) Examining (for files) backup set with nonce=9cc0e5ce9808, datestamp=1535464440 (Aug 28 2018 13:54:00)
+0169.401 (0) This backup set is the backup set just made, so will not be deleted.
+0169.401 (0) This backup set is the backup set just made, so will not be deleted.
+0169.401 (0) This backup set is the backup set just made, so will not be deleted.
+0169.401 (0) This backup set is the backup set just made, so will not be deleted.
+0169.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0169.402 (0) Examining (for files) backup set with nonce=314fcb043b66, datestamp=1535435640 (Aug 28 2018 05:54:00)
+0169.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0169.402 (0) Examining (for files) backup set with nonce=28a6e574f390, datestamp=1535406839 (Aug 27 2018 21:53:59)
+0169.402 (0) plugins: over retain limit (2); will delete this file entity
+0169.402 (0) themes: over retain limit (2); will delete this file entity
+0169.402 (0) uploads: over retain limit (2); will delete this file entity
+0169.402 (0) others: over retain limit (2); will delete this file entity
+0169.402 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-plugins.zip, service=none
+0169.403 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-plugins.zip)
+0169.405 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-themes.zip, service=none
+0169.406 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-themes.zip)
+0169.408 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-uploads.zip, service=none
+0169.409 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-uploads.zip)
+0169.411 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-uploads2.zip, service=none
+0169.412 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-uploads2.zip)
+0169.413 (0) Delete file: backup_2018-08-27-1753_Destination_Salem_28a6e574f390-others.zip, service=none
+0169.418 (0) Deleting local copy (backup_2018-08-27-1753_Destination_Salem_28a6e574f390-others.zip)
+0169.425 (0) This backup set is now empty; will remove from history
+0169.426 (0) Deleting log file (log.28a6e574f390.txt)
+0169.430 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0169.434 (0) Resume backup (9cc0e5ce9808, 0): finish run
+0169.436 (0) Decremented the semaphore (fd) by 1
+0169.438 (0) Semaphore (fd) unlocked
+0169.439 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0169.441 (0) No email will/can be sent - the user has not configured an email address.
+0169.442 (0) The backup apparently succeeded and is now complete
